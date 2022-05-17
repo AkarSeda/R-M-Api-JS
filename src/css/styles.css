@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Poppins', Arial, Verdana, sans-serif;
+    background-color: rgb(36, 36, 36);
+}
+
+.header-logo {
+    height: 110px;
+}
+
+.d-flex {
+    height: 45px;
+    width: 550px;
+    padding-right: 70px;
+}
+
+input {
+    font-family: inherit;
+    outline: none;
+
+}
+
+.form-control {
+    border-radius: 20px;
+}
+
+.btn {
+    border-radius: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.characters {
+    display: grid;
+    grid-gap: 2em;
+    background-color: rgb(36, 36, 36);
+}
+
+.card {
+    width: 1350px;
+    margin: 4em 15em;
+    border-radius: 20px;
+    background-color: rgb(36, 36, 36);
+}
+
+.row {
+    margin: 0em 0em;
+    width: 1350px;
+    border-radius: 20px;
+    background-color: rgb(36, 36, 36);
+}
+
+.image-col {
+    width: 300px;
+    padding-left: 10px;
+}
+
+img {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.col-2 {
+    height: 300px;
+    width: 370px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #414349;
+}
+
+.card-footer {
+    width: 100%;
+    background-color: #414349;
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background: red;
+    color: white;
+    margin: 5px;
+    float: left;
+}
+
+.name {
+    color: #0d6efd;
+    font-size: 18pt;
+    padding: 0;
+}
