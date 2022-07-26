@@ -4,36 +4,21 @@ fetch("https://rickandmortyapi.com/api/character")
 
 
 function Cards(stuff) {
-    const charactersContainer = document.getElementById('card-group')
+    const chacactersContainer = document.getElementById('card-group')
     stuff.forEach(character => {
-        charactersContainer.innerHTML = charactersContainer.innerHTML +
+        chacactersContainer.innerHTML = chacactersContainer.innerHTML +
             `<div class="image-col mb-5 mt-5">
             <img src=${character.image}></img>
             </div>` +
             `<div class="col-2 mb-5 mt-5 text-col">
             <div class="card-body">
-
-
-            <p class="card-text mt-5">
-
-            <button data-info="name" type="button" class="btn name m-0 text-white" 
-            onclick="myFun(this.dataset.info, this.innerHTML)">${character.name}</button><br>
-
-            <button data-info="name" type="button" class="btn name m-0 text-white" 
-            onclick="myFun(this.dataset.info, this.innerHTML)">
-            <h4>Status: ${character.status}</h4></button><br>
-
-            <button data-info="name" type="button" class="btn name m-0 text-white" 
-            onclick="myFun(this.dataset.info, this.innerHTML)">
-            <h4>Species: ${character.species}</h4></button><br>
-
-            <button data-info="name" type="button" class="btn name m-0 text-white" 
-            onclick="myFun(this.dataset.info, this.innerHTML)">
-            <h4>Type: ${character.type}</h4></button><br>
-
-            <button data-info="name" type="button" class="btn name m-0 text-white" 
-            onclick="myFun(this.dataset.info, this.innerHTML)">
-            <h4>Gender: ${character.gender}</h4></button><br>
+            <p class="card-text">
+            <button data-info="name" type="button" class="btn name m-0" 
+            onclick="myFun(this.dataset.info, this.innerHTML)">${character.name}</button>
+            <h4>Status: ${character.status}</h4>
+            <h4>Species: ${character.species}</h4>
+            <h4>Type: ${character.type}</h4>
+            <h4>Gender: ${character.gender}</h4>
             </p>
             </div>
             </div><br>`
